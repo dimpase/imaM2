@@ -38,9 +38,20 @@ multivariate polynomials, back and force. However, much more is needed.
 so that e.g. it's possible to interchangeably use libSingular and M2 Groebner bases engines for basic
 computations.
 
-* interface between Sage's and M2's quotient rings.
+* Interface between Sage's and M2's quotient rings.
 
 * Numerical algberaic geometry support is hardly existing in Sage. It would be great to explore the possibilites to
 have it in Sage in a face-to-face meeting with a primary developer of this functionality in M2, A.Leykin.
 
-TBC
+Working with Sage in M2 
+-----------------------
+
+Currently Sage can't be accessed from an M2 session.
+
+* A rudimentary python interface exists in M2. This requires compiling M2 with optional flags which was functional in some realease, but doesn't work in 1.14 version.
+
+* We need to discuss possible ways to invoke Sage in M2.  
+
+* Sage-specific python interface is a possibility: one may envision converters from main Sage types to those of M2. 
+
+

@@ -1,6 +1,6 @@
 Sage/Macaulay2 interfaces and interactions
 ==========================================
-**IMA Coding Sprint Proposal by**
+**IMA Coding Sprint Proposal for October 5-11, 2019, by**
 
 * [Anton Leykin](mailto:leykin@math.gatech.edu) Georgia Tech
 

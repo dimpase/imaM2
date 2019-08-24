@@ -1,5 +1,14 @@
 Sage/Macaulay2 interfaces and interactions
 ==========================================
+**IMA Coding Sprint Proposal by**
+
+* [Anton Leykin](mailto:leykin@math.gatech.edu) Georgia Tech
+
+* [Dmitrii Pasechnik](mailto:dimpase@cs.ox.ac.uk) University of Oxford, UK
+
+* [Franco Saliola](mailto:saliola.franco@uqam.ca) Université du Québec à Montréal, Canada
+
+* [Markus Wageringel](mailto:markus.wageringel@uni-osnabrueck.de) Universität Osnabrück, Germany
 
 Basic commutative algebra computations in Sage are presently done (mostly)
 using the (lib)Singular. There is considerable interest in bringing into Sage
@@ -18,7 +27,7 @@ many needed libraries for compatibility with Boehm GC. (It used to be possible t
 This task is tracked on [Sage's #28255](https://trac.sagemath.org/ticket/28255).
 
 The purpose of the proposed coding sprint is to make progress on #28284, and, time/resources
-allowing, on #28255.
+allowing, on #28255, as well as on the "dual" task of interfacing Sage from M2.
 As a side task it might be useful to leverage the experience of D.Pasechnik on [unvendoring
 Sage components](https://trac.sagemath.org/ticket/27330) in the realm of M2, to streamline its
 installation.
@@ -40,7 +49,7 @@ computations.
 
 * Interface between Sage's and M2's quotient rings.
 
-* Numerical algberaic geometry support is hardly existing in Sage. It would be great to explore the possibilites to
+* Numerical algebraic geometry support is hardly existing in Sage. It would be great to explore the possibilities to
 have it in Sage in a face-to-face meeting with a primary developer of this functionality in M2, A.Leykin.
 
 Working with Sage in M2 
@@ -48,10 +57,11 @@ Working with Sage in M2
 
 Currently Sage can't be accessed from an M2 session.
 
-* A rudimentary python interface exists in M2. This requires compiling M2 with optional flags which was functional in some realease, but doesn't work in 1.14 version.
+* A rudimentary python interface exists in M2. This requires compiling M2 with
+  optional flags which was functional in some release, but doesn't work in
+1.14 version. 
 
 * We need to discuss possible ways to invoke Sage in M2.  
 
 * Sage-specific python interface is a possibility: one may envision converters from main Sage types to those of M2. 
-
 
